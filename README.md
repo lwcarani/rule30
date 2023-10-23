@@ -8,6 +8,20 @@ The formula is `[left_cell XOR (central_cell OR right_cell)]`. It is called Rule
 This version is written in Python. 
 
 ## Examples
+Python's `argparse` has a nice built in `help` command:
+
+```console
+PS C:\...\rule30> python cli.py -h
+usage: cli.py [-h] [--np] [--naive] [--steps STEPS]
+
+Run Rule 30 automaton.
+
+options:
+  -h, --help     show this help message and exit
+  --np           Use NumPy implementation
+  --naive        Use naive implementation
+  --steps STEPS  Specify the number of steps
+```
 Running for 5 steps:
 
 ```console
