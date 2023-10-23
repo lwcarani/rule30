@@ -80,7 +80,7 @@ Running Rule 30 cellular automaton for 20 steps (using a Python implementation w
 ```
 And finally, 50 steps:
 
-```console
+```cmd
 PS C:\...\rule30> python cli.py --np --steps 50
 Running Rule 30 cellular automaton for 50 steps (using a Python implementation with NumPy)
                                                   █
