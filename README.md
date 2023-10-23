@@ -22,7 +22,7 @@ options:
   --naive        Use naive implementation
   --steps STEPS  Specify the number of steps
 ```
-Running for 5 steps:
+To run Rule 30 for 5 steps, we simply use the `--steps` flag and pass the parameter `5`:
 
 ```console
 PS C:\...\rule30> python cli.py --np --steps 5
@@ -34,7 +34,7 @@ Running Rule 30 cellular automaton for 5 steps (using a Python implementation wi
  ██  █   █
  █ ████ ██
 ```
-10 steps:
+Here we see Rule 30 for 10 steps:
 
 ```console
 PS C:\...\rule30> python cli.py --np --steps 10
