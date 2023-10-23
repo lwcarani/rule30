@@ -1,3 +1,5 @@
+"""Rule 30: [left XOR (center OR right)]"""
+
 import argparse
 from rule30_naive import run_naive_imp
 from rule30_numpy import run_numpy_imp
