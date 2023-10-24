@@ -4,8 +4,8 @@ import time
 import numpy as np
 from typing import Dict
 
-ONE = "█"
-ZERO = ' '
+ONE = "██"
+ZERO = '  '
 mapping: Dict[int, str] = {1: ONE, 0: ZERO}
 
 

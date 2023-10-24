@@ -3,8 +3,8 @@
 import time
 from typing import List
 
-ONE = "█"
-ZERO = ' '
+ONE = "██"
+ZERO = '  '
 
 def rule_30_next_row(
     previous_row: List[int]
