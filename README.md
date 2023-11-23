@@ -11,7 +11,7 @@ This version is written in Python.
 Python's `argparse` has a nice built in `help` command:
 
 ```cmd
-PS C:\...\rule30> python cli.py -h
+C:\...\rule30> python cli.py -h
 usage: cli.py [-h] [--np] [--naive] [--steps STEPS]
 
 Run Rule 30 automaton.
@@ -25,7 +25,7 @@ options:
 To run Rule 30 for 5 steps, we simply use the `--steps` flag and pass the parameter `5`:
 
 ```cmd
-PS C:\...\rule30> python cli.py --np --steps 5
+C:\...\rule30> python cli.py --np --steps 5
 Running Rule 30 cellular automaton for 5 steps (using a Python implementation with NumPy)
      █
     ███
@@ -37,7 +37,7 @@ Running Rule 30 cellular automaton for 5 steps (using a Python implementation wi
 Here we see Rule 30 for 10 steps:
 
 ```cmd
-PS C:\...\rule30> python cli.py --np --steps 10
+C:\...\rule30> python cli.py --np --steps 10
 Running Rule 30 cellular automaton for 10 steps (using a Python implementation with NumPy)
           █
          ███
@@ -54,7 +54,7 @@ Running Rule 30 cellular automaton for 10 steps (using a Python implementation w
 20 steps:
 
 ```cmd
-PS C:\...\rule30> python cli.py --np --steps 20
+C:\...\rule30> python cli.py --np --steps 20
 Running Rule 30 cellular automaton for 20 steps (using a Python implementation with NumPy)
                     █
                    ███
@@ -81,7 +81,7 @@ Running Rule 30 cellular automaton for 20 steps (using a Python implementation w
 And finally, 50 steps:
 
 ```cmd
-PS C:\...\rule30> python cli.py --np --steps 50
+C:\...\rule30> python cli.py --np --steps 50
 Running Rule 30 cellular automaton for 50 steps (using a Python implementation with NumPy)
                                                   █
                                                  ███
@@ -142,7 +142,7 @@ Beautiful!
 The above examples were all generated based on my implementation using numpy. I also implemented Rule 30 more naively (un-vectorized) using native Python data structures and libraries, which can be called with the `--naive` flag:
 
 ```cmd
-PS C:\...\rule30> python cli.py --naive --steps 10
+C:\...\rule30> python cli.py --naive --steps 10
 Running Rule 30 cellular automaton for 10 steps (using a naive Python implementation)
           █
          ███
