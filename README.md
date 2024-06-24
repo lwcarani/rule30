@@ -3,7 +3,7 @@
 ## About
 Rule 30 is one of the elementary cellular automaton rules introduced by Stephen Wolfram in 1983. It specifies the next color in a cell, depending on its color, and its immediate neighbors ([Source](https://mathworld.wolfram.com/Rule30.html)). 
 
-The formula is `[left_cell XOR (central_cell OR right_cell)]`. It is called Rule 30 because in binary `00011110 = 30` ([Source](https://en.wikipedia.org/wiki/Rule_30)).
+The formula is `[left_cell XOR (center_cell OR right_cell)]`. It is called Rule 30 because in binary `00011110 = 30` ([Source](https://en.wikipedia.org/wiki/Rule_30)).
 
 This version is written in Python. 
 
